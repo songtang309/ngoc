@@ -1,0 +1,87 @@
+
+.CV{
+   background-color: #F9F9F9;
+    margin-left: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 30px;
+    margin-inline-end: 170px;
+    margin-inline-start: 200px;
+    border: 1px solid #333;
+}
+.Gioithieu>p
+{
+    text-align: center;
+}
+.Banthan>p
+{
+    text-align: center;
+}
+.Banthan{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+}
+.Banthan>h2{
+    text-align: center;
+    margin-inline-end: 0px;
+    margin-inline-start: 301px;
+    background-color: #CDF0EA;
+    width: 240px;
+}
+.Kynang{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 20px;
+}
+.Kynang>ul{
+    list-style: circle;
+}
+.Kynang>ul>ul{
+    list-style: "-";
+    margin-inline-end: 0px;
+    margin-inline-start: -40px;
+}
+.Kynang>h2{
+    background-color: #CDF0EA;
+    width: 240px;
+}
+
+.Giaoduc{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 20px;
+}
+.Giaoduc>h2{
+    background-color: #CDF0EA;
+    width: 240px;
+}
+.Sothich>h2{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 20px;
+}
+.Sothich>h2{
+    background-color: #CDF0EA;
+    width: 350px;
+}
+.clear{
+    clear: both;
+}
+.Tieude{
+    width: 980px;
+    padding: 0px;
+}
+.Tentruong{
+    width: 500px;
+    height: 50px;
+    float: left;
+}
+.Namhoc{
+    width: 367px;
+    height: 150px;   
+    float  : right;
+}
