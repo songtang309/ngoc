@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    background-color: rgb(245, 247, 250);
+}
+
+.CV{
+    width: 100%;
+    height: auto;
+    background-color: rgb(245, 247, 250);
+    display: block;
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 8px #333;
+    margin-top: 40px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0 10px #333;
+}
+
+.ava{
+    width: 30%;
+    height: calc(width * 1,777);
+}
+
+.ava img{
+    height: 100%;
+    width: 100%;
+}
+
+.right{
+    width: 70%;
+    background-color: #1e90ff;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    margin-top:30px;
+    margin-left:30px; 
+}
+
+.info h3{
+    font-size: 16px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.info h1{
+    color: #fff;
+}
+
+.icon{
+    width: 50px;
+    height: 46px;
+    margin-top:30px;
+    margin-right:50px; 
+}
+.icon img{
+   width: 100%;
+   height: 100%;
+}
+
+.intro{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.intro__left{
+    margin-left: 30px;
+    width: 50%;
+}
+
+.intro__right{
+    width: 50%;
+    margin-left: 30px;
+}
+
+.intro__left p, h2{
+    color: #fff;
+}
+
+.intro__left p{
+    padding-top: 20px;
+}
+
+.intro__right p{
+    color: #fff;
+}
+
+.skills{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.skills h2{
+    color:#fff;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.skill__container{
+    display: flex;
+}
+
+.skill__left{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.skill__left p{
+    color: #fff;
+}
+
+.skill__right{
+    flex: 1;
+    margin-left: 20px;
+}   
+
+.skill__right p{
+    color: #fff;
+}
+
+.skill__bar{
+    width: 100%;
+    height: 20px;
+    background-color: #dfe6e9;
+    border-radius: 10px;
+}
+
+.skill__html{
+    background-color: #2ed573;
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+}
+
+.skill__css{
+    background-color: #2ed573;
+    border-radius: 10px;
+    width: 70%;
+    height: 100%;
+}
+
+.skill__java{
+    background-color: #2ed573;
+    border-radius: 10px;
+    width: 50%;
+    height: 100%;
+}
+
+.skill__pts{
+    background-color: #2ed573;
+    border-radius: 10px;
+    width: 75%;
+    height: 100%;
+}
+
+.skill__sk{
+    background-color: #2ed573;
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+}
+
+.skill__xd{
+    background-color: #2ed573;
+    border-radius: 10px;
+    width: 60%;
+    height: 100%;
+}
+
+.work{
+    margin:30px 0px;
+}
+
+.work h2{
+    color: #fff;
+}
+
+.work__list{  
+    list-style: none;
+}
+
+.work__list p{
+    margin-left: 20px;
+}
+
+.work__item{
+    border: 1px solid #dfe6e9;
+    border-left: 10px solid #1e90ff;
+    border-radius: 5px;
+    margin-top: 40px;
+    box-shadow: 0 0 5px #333;
+    padding: 40px;
+}
+
+.decor-bar{
+    width: 100%;
+    background-color: #2ed573;
+}
+
+.decor-bar-child{
+    width: 80%;
+    background-color: #1e90ff;
+}
+
+.edu{
+    margin:30px 0px;
+}
+
+.contact{
+    width: 100%;
+}
+
+.contact__container{
+    display: flex;
+}
+.contact__input{
+    width: 60%;
+}
+
+.contact__info{
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.contact__input-top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact__input-top input{
+    width: 45%;
+    height: 30px;
+    border-color:rgb(222, 226, 230);
+    border-radius: 3px; 
+    background-color: rgb(248, 249, 250);
+    outline-color: #0d6efd;
+    padding-left: 20px;
+}
+
+.contact__input-bottom input{
+    width: 96.25%;
+    height: 100px;
+    border-color:rgb(222, 226, 230);
+    border-radius: 3px; 
+    background-color: rgb(248, 249, 250);
+    outline-color: #0d6efd;
+    padding-left: 20px;
+}
+
+.contact__input-bottom{
+    margin-top: 20px;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(245, 247, 250);
+    margin-top: 40px;
+}
+
+.footer__name{
+    text-align: center;
+    color: #333;
+}
+
+.footer__icon{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer__icon i{
+   font-size: 30px;
+   color: #333;
+}
+
+.footer__text{
+    text-align: center;
+}
